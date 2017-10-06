@@ -6,12 +6,12 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      userObj:{
+      //userObj:{
         username:'',
         email:'',
         password:'',
         age:''
-      }
+      //}
     }
   }
   render() {
@@ -23,7 +23,7 @@ class App extends Component {
         Age - <input type="number" name="age" onChange={(e) => this.change(e)}/>
         <span>    </span>
         <button onClick={(e) => this.submit(e)}> submit </button>
-        {this.state.username} - {this.state.email} - {this.state.age}
+        {this.state.username} - {this.state.email} - {this.state.password} - {this.state.age}
       </div>  
     );
   }
