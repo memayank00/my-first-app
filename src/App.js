@@ -33,13 +33,13 @@ class App extends Component {
   }
   submit() {
     console.log("state--- "+JSON.stringify(this.state));
-   /* axios.post('localhost:9000/api/testReact', this.state)
+    axios.post('localhost:9000/api/testReact', this.state)
     .then(function (response) {
       console.log(response);
     })
     .catch(function (error) {
       console.log(error);
-    });*/
+    });
   }
 }
 
