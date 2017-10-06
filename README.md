@@ -2177,3 +2177,6 @@ https://github.com/axios/axios
 
 ## cors use link
 https://www.npmjs.com/package/cors
+
+## find ssh key  command
+cat ~/.ssh/id_rsa.pub 
