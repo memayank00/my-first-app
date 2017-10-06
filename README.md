@@ -2169,3 +2169,11 @@ If you have ideas for more “How To” recipes that should be on this page, [le
 run below command- 
 
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+
+## axios use link
+
+https://github.com/axios/axios
+
+## cors use link
+https://www.npmjs.com/package/cors
