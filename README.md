@@ -2180,3 +2180,6 @@ https://www.npmjs.com/package/cors
 
 ## find ssh key  command
 cat ~/.ssh/id_rsa.pub 
+
+## to understansd pros
+https://auth0.com/blog/reactjs-authentication-tutorial/
