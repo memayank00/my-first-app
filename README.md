@@ -2183,3 +2183,6 @@ cat ~/.ssh/id_rsa.pub
 
 ## to understansd pros
 https://auth0.com/blog/reactjs-authentication-tutorial/
+
+## Very importent Blog 
+https://camjackson.net/post/9-things-every-reactjs-beginner-should-know

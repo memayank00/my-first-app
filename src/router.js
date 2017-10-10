@@ -9,6 +9,7 @@ import About from './components/About';
 import Login from './components/Login';
 import Contact from './components/Contact';
 import Dashboard from './components/Dashboard';
+import ViewUser from './components/ViewUser';
 
 
 export const Router = () => (
@@ -18,6 +19,7 @@ export const Router = () => (
         <li><Link to="/">Home</Link></li>
         <li><Link to="/login">Login</Link></li>
         <li><Link to="/about">About</Link></li>
+        <li><Link to="/viewUser">View User</Link></li>
       </ul>
 
       <hr/>
@@ -27,6 +29,7 @@ export const Router = () => (
       <Route  path="/about" component={About}/>
       <Route  path="/contactUs" component={Contact}/>
       <Route  path="/dashboard" component={Dashboard}/>
+      <Route  path="/viewUser" component={ViewUser}/>
       
       <hr/>
 
